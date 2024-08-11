@@ -1,0 +1,203 @@
+#root {
+  background-color: white;
+  font-family: sans-serif;
+  letter-spacing: 2px;
+  color: gray;
+  font-weight: 200;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-inline: 20px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  width: auto;
+}
+
+.logo img{
+  margin-top: 10px;
+  width: 235px;
+}
+
+.tabs{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-inline: 20px;
+}
+
+.SocialMedia{
+  display: flex;
+  text-decoration: none;
+  gap: 20px;
+}
+.SocialMedia a{
+  text-decoration: none;
+}
+.MENUTAB{
+  display: flex; 
+  gap: 20px;
+  margin-top: 20px;
+  margin-left: 10px;
+}
+
+.MENUTAB a {
+  color: black;
+  text-decoration: none;
+}
+
+.MENUTAB a:hover {
+  color: rgb(255, 187, 0);
+}
+
+
+.intro{
+  display: flex;
+  justify-content: space-evenly;
+  margin: 10px;
+  margin-left: 30px;
+  width: auto;
+
+}
+
+.introimg img{
+  width: 700px;
+  margin-top: 20px;
+  margin-right: 20px;
+}
+
+hr {
+  border: none;
+  height: 5px;
+  background-color: rgb(255, 187, 0);
+  margin-bottom: 10px;
+  
+}
+.foote{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.product{
+  font-size: 20px;
+  margin-left: 40px;
+}
+.introtext h3{
+  color: rgb(255, 187, 0);
+}
+.introtext a{
+  color: rgb(255, 255, 255);
+  background-color: rgb(255, 187, 0);
+  border-radius: 8px;
+  padding: 10px 30px;
+  font-size: 20px;
+  text-decoration: none;
+}
+.foote h2{
+  color: rgb(255, 187, 0);
+}
+.search-bar{
+  background-color: white;
+  border: none;
+  width: 250px;
+}
+#LearnMore{
+  color: rgb(255, 255, 255);
+  background-color: rgb(255, 187, 0);
+  border-radius: 8px;
+  padding: 10px 30px;
+  font-size: 20px;
+  border-color: rgb(255, 187, 0);
+}
+.cards{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 50px;
+}
+.cards img {
+  display: flex;
+  width: 230px;
+}
+.cards h2{
+  color: rgb(255, 187, 0);
+}
+.cards h4{
+  color: rgb(0, 0, 0);
+}
+#Button{
+  color: rgb(255, 255, 255);
+  background-color: rgb(255, 187, 0);
+  border-radius: 8px;
+  padding: 10px 30px;
+  font-size: 20px;
+  border-color: rgb(255, 187, 0);
+}
+.virtualbank img{
+  width: 700px;
+  margin: 40px;
+}
+.virtualbank{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.Buttons{
+  margin-top: 50px;
+  margin-left: 30px;
+  display: flex;
+  gap: 20px;
+}
+.cards button:hover{
+  scale: 110px;
+}
+.reserved{
+  color:black;
+  margin-left: 50px;
+}
+.lastFooter a{
+  display: flex; 
+  gap: 20px;
+  margin-top: 20px;
+  margin-left: 10px;
+  color: whitesmoke;
+}
+.lastFooter{
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(43, 43, 44);
+
+}
+.lastFooter h2{
+  text-decoration: none;
+  color: white;
+}
+.footlinks{
+  display: flex;
+  flex-direction: column;
+}
+.product1{
+  font-size: 20px;
+}
+.home a{
+  color: rgb(255, 187, 0);
+  text-decoration: underline;
+  text-decoration-color: rgb(255, 187, 0);
+}
+.home{
+  color: rgb(255, 187, 0);
+  text-decoration: underline;
+  text-decoration-color: rgb(255, 187, 0);
+}
+.numbers h2{
+  color: rgb(255, 187, 0);
+}
